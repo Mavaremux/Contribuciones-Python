@@ -1,0 +1,22 @@
+import time
+import random
+
+intentos = 0
+max_intentos =5
+
+while intentos < max_intentos:
+    intentos += 1
+    
+    print(f"Intento {intentos}. Conectando al servidor")
+    time.sleep(1)
+    if random.choice([True, False, False, False]):
+    
+        if True:
+            print("Conexion realizada, Iniciando")
+            break
+    print("Conexion fallida, Reintentando")
+else:
+    print("Intentos insuficientes, No se puede conectar")
+    
+          
+    
